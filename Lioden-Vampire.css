@@ -69,16 +69,9 @@ select {
     font-family: var(--body-font) !important;
 }
 /* ================================
-   VAMPIRE THEME — MAIN PANELS
+   VAMPIRE THEME — PANEL TEST
 ================================ */
 
-
-.container,
-#main,
-#content,
-.panel,
-.panel-default,
-.well {
+body * {
     background-color: #FF00FF !important;
-    border: 3px solid #00FF00 !important;
 }
