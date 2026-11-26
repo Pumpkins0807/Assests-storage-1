@@ -1,1 +1,84 @@
+/* ================================
+   VAMPIRE THEME — COLOR FOUNDATION
+================================ */
+
+:root {
+    --ivory: #F1E9E9;
+    --ivory-transparent: #F1E9E9AB;
+
+    --black: #180D10;
+    --black-transparent: #180D10B3;
+
+    --wine: #691D2D;
+    --wine-transparent: #691D2DB0;
+    --wine-soft: #691D2D73;
+
+    --silver: #C6B6B9;
+    --silver-transparent: #C6B6B9BF;
+    --silver-soft: #C6B6B98F;
+
+    --crimson: #8B293A;
+    --crimson-transparent: #8B293AB0;
+    --crimson-soft: #8B293A82;
+
+    --dark-red: #3B101B;
+    --dark-red-transparent: #3B101BCF;
+    --dark-red-soft: #3B101B80;
+
+    --near-black: #0E090B;
+
+    --white: #FFFFFF;
+}
+/* ================================
+   VAMPIRE THEME — FONT
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --body-font: 'Bricolage Grotesque', sans-serif;
+}
+/* ================================
+   VAMPIRE THEME — BACKGROUND
+================================ */
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1770150511192-6e8d78c6c17c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ================================
+   VAMPIRE THEME — CURSOR
+================================ */
+
+* {
+    cursor: url('https://cdn.cursors-4u.net/previews/bat-cursor-1924e929-32.webp') 32 32, auto !important;
+}
+/* ================================
+   VAMPIRE THEME — GLOBAL FONT
+================================ */
+
+body,
+button,
+input,
+textarea,
+select {
+    font-family: var(--body-font) !important;
+}
+/* ================================
+   VAMPIRE THEME — MAIN PANELS
+================================ */
+
+.container,
+#main,
+#content,
+.panel,
+.panel-default,
+.well {
+    background-color: var(--black-transparent) !important;
+    border-color: var(--wine) !important;
+}
 
