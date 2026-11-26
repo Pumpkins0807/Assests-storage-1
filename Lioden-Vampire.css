@@ -281,3 +281,20 @@ button.button:hover,
     color: var(--ivory) !important;
     border-color: var(--wine) !important;
 }
+/* ================================
+   VAMPIRE THEME — GAME STATS
+================================ */
+
+#pageSidebar .panel,
+#pageSidebar .panel-body {
+    background-color: var(--black-transparent) !important;
+    border-color: var(--wine) !important;
+}
+
+#pageSidebar .panel-body {
+    color: var(--ivory) !important;
+}
+
+#pageSidebar .panel-body a {
+    color: var(--silver) !important;
+}
