@@ -89,3 +89,14 @@ select {
     background-color: var(--black-transparent) !important;
     border-color: var(--wine) !important;
 }
+/* ================================
+   VAMPIRE THEME — TABLE HEADERS
+================================ */
+
+th,
+.table th,
+.panel-heading {
+    background-color: var(--near-black) !important;
+    color: var(--silver) !important;
+    border-color: var(--wine) !important;
+}
