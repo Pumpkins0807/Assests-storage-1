@@ -661,13 +661,13 @@ a[href*="attacks.php"]:hover {
     background-color: #A6384B !important;
     color: #FFFFFF !important;
 }
-/* Remove decorative lines from den quick links */
-a[href*="stud_requests.php"]::before,
-a[href*="stud_requests.php"]::after,
-a[href*="userlog.php"]::before,
-a[href*="userlog.php"]::after,
-a[href*="attacks.php"]::before,
-a[href*="attacks.php"]::after {
+/* Remove the vertical decorative lines on quick-link columns */
+.row:has(a[href*="stud_requests.php"]) .col-sm-4::before,
+.row:has(a[href*="userlog.php"]) .col-sm-4::before,
+.row:has(a[href*="attacks.php"]) .col-sm-4::before,
+.row:has(a[href*="stud_requests.php"]) .col-sm-4::after,
+.row:has(a[href*="userlog.php"]) .col-sm-4::after,
+.row:has(a[href*="attacks.php"]) .col-sm-4::after {
     display: none !important;
     content: none !important;
 }
