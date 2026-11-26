@@ -173,28 +173,28 @@ h3 a {
    VAMPIRE THEME — BUTTONS
 ================================ */
 
-.btn,
 .btn-default,
 .btn-primary,
 .btn-success,
 .btn-info,
 .btn-warning,
-.btn-danger {
+.btn-danger,
+a.btn {
+    background: #8B293A !important;
     background-image: none !important;
-    background-color: #8B293A !important;
-    border: 1px solid #A6384B !important;
-    color: #F1E9E9 !important;
+    border-color: #A6384B !important;
+    color: var(--ivory) !important;
 }
 
-.btn:hover,
 .btn-default:hover,
 .btn-primary:hover,
 .btn-success:hover,
 .btn-info:hover,
 .btn-warning:hover,
-.btn-danger:hover {
+.btn-danger:hover,
+a.btn:hover {
+    background: #A6384B !important;
     background-image: none !important;
-    background-color: #A6384B !important;
     border-color: #C04A5D !important;
-    color: #FFFFFF !important;
+    color: var(--white) !important;
 }
