@@ -468,19 +468,40 @@ button.button:hover,
 /* ================================
    VAMPIRE THEME — PLAY ALL / FEED ALL
 ================================ */
-
-.feature {
-    background-color: #180D10 !important;
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+a.btn,
+input[name="playall"],
+input[name="feedall"],
+input[name="sparwithsub"],
+input[name="update"],
+a[href*="account-settings.php"] {
+    background: #8B293A !important;
     background-image: none !important;
-    border: 1px solid #8B293A !important;
-    color: #F1E9E9 !important;
+    border-color: #A6384B !important;
+    color: var(--ivory) !important;
 }
 
-.feature h3,
-.feature p,
-.feature span,
-.feature small {
-    color: #F1E9E9 !important;
+.btn-default:hover,
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+a.btn:hover,
+input[name="playall"]:hover,
+input[name="feedall"]:hover,
+input[name="sparwithsub"]:hover,
+input[name="update"]:hover,
+a[href*="account-settings.php"]:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: var(--white) !important;
 }
 /* ================================
    VAMPIRE THEME — ALLIES & CLAN LINKS
