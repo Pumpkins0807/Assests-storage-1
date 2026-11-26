@@ -208,6 +208,37 @@ a.btn:hover {
     border-color: #C04A5D !important;
     color: var(--white) !important;
 }
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+a.btn,
+input[name="playall"],
+input[name="feedall"],
+input[name="sparwithsub"] {
+    background: #8B293A !important;
+    background-image: none !important;
+    border-color: #A6384B !important;
+    color: var(--ivory) !important;
+}
+
+.btn-default:hover,
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+a.btn:hover,
+input[name="playall"]:hover,
+input[name="feedall"]:hover,
+input[name="sparwithsub"]:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: var(--white) !important;
+}
 /* ================================
    VAMPIRE THEME — TERRITORY DESCRIPTION
 ================================ */
