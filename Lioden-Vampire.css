@@ -245,19 +245,20 @@ button.button:hover,
    VAMPIRE THEME — PROGRESS BARS
 ================================ */
 
+/* Bar background (empty portion) */
+.progress {
+    background-color: #F1E9E9 !important;
+    border: 1px solid var(--wine) !important;
+}
+
+/* Text inside the bars */
+.progress div {
+    color: #180D10 !important;
+}
+
+/* Filled portions of all bars */
 .progress-bar {
     background-color: #8B293A !important;
-}
-/* ================================
-   VAMPIRE THEME — PROGRESS BAR TEXT
-================================ */
-
-.progress-bar {
-    color: #180D10 !important;
-}
-
-.progress-bar span {
-    color: #180D10 !important;
 }
 /* ================================
    VAMPIRE THEME — SIDEBAR TEXT
