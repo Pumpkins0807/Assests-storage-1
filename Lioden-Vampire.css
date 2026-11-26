@@ -169,3 +169,18 @@ h3 a {
 .breadcrumb > li + li::before {
     color: var(--crimson) !important;
 }
+/* ================================
+   VAMPIRE THEME — BUTTONS
+================================ */
+
+.btn {
+    background-color: var(--crimson) !important;
+    border-color: var(--wine) !important;
+    color: var(--ivory) !important;
+}
+
+.btn:hover {
+    background-color: #A6384B !important;
+    border-color: var(--crimson) !important;
+    color: var(--white) !important;
+}
