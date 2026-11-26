@@ -584,3 +584,49 @@ div.left a[href="/account_settings.php"] {
     background-color: transparent !important;
     background-image: none !important;
 }
+
+/* ================================
+   VAMPIRE THEME — CAVE & ORGANIZATION TILES
+================================ */
+
+/* Tile backgrounds */
+#fraOrganizationBlock .cave-grid,
+#fraCaveList .cave-grid {
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY25wN2w0MTgzNWl2Yng4a2psczl5MGlpMmdrYWo0ZWFwb2s4ZXJ4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sFMuudjB6FgoU/giphy.gif') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #180D10 !important;
+    border: 1px solid #8B293A !important;
+    color: #F1E9E9 !important;
+}
+
+/* Hide original tile pictures */
+#fraOrganizationBlock .cave-grid img,
+#fraCaveList .cave-grid img {
+    display: none !important;
+}
+
+/* Tile text */
+#fraOrganizationBlock .cave-grid,
+#fraCaveList .cave-grid {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px #000000,
+                 0 0 5px #000000 !important;
+}
+
+/* Text inside tiles */
+#fraOrganizationBlock .cave-grid *,
+#fraCaveList .cave-grid * {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px #000000,
+                 0 0 5px #000000 !important;
+}
+
+/* Tile hover effect */
+#fraOrganizationBlock a:hover .cave-grid,
+#fraCaveList a:hover .cave-grid {
+    border-color: #C04A5D !important;
+    filter: brightness(1.15) !important;
+}
+
