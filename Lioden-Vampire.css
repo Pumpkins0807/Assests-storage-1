@@ -352,3 +352,16 @@ button.button:hover,
 #fraProfileContent a:hover {
     color: #C04A5D !important;
 }
+/* ================================
+   VAMPIRE THEME — ALERT BOXES
+================================ */
+
+.alert-success,
+.alert-danger,
+.alert-warning,
+.alert-info {
+    background-color: #3B101B !important;
+    background-image: none !important;
+    color: #F1E9E9 !important;
+    border: 1px solid #8B293A !important;
+}
