@@ -101,3 +101,13 @@ th,
     color: var(--silver) !important;
     border-color: var(--wine) !important;
 }
+/* ================================
+   VAMPIRE THEME — TABLE CELLS
+================================ */
+
+.table td,
+table td {
+    background-color: #3B101B !important;
+    color: var(--ivory) !important;
+    border-color: var(--wine) !important;
+}
