@@ -246,17 +246,17 @@ button.button:hover,
 ================================ */
 
 /* Empty portion of the bars */
-.progress {
+#pageSidebar .progress {
     background-color: #F1E9E9 !important;
 }
 
-/* Text inside the bars */
-.progress-div {
+/* Text inside the progress bars */
+#pageSidebar .progress div {
     color: #180D10 !important;
 }
 
 /* Filled portions */
-.progress-bar {
+#pageSidebar .progress-bar {
     background-color: #8B293A !important;
 }
 /* ================================
