@@ -321,6 +321,19 @@ button.button:hover,
     color: var(--ivory) !important;
 }
 /* ================================
+   VAMPIRE THEME — CHAT USER LINKS
+================================ */
+
+#chatMessageList .s-chat-message a,
+#chatMessageContainer .s-chat-message a {
+    color: #C04A5D !important;
+}
+
+#chatMessageList .s-chat-message a:hover,
+#chatMessageContainer .s-chat-message a:hover {
+    color: #F1E9E9 !important;
+}
+/* ================================
    VAMPIRE THEME — GAME STATS
 ================================ */
 
