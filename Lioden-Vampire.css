@@ -333,6 +333,39 @@ button.button:hover,
     color: #F1E9E9 !important;
 }
 /* ================================
+   VAMPIRE THEME — CHAT CONDUCT & PINNED
+================================ */
+
+/* Code of Conduct link */
+#fra_chatContainer a[href*="code.php"] {
+    color: #C04A5D !important;
+}
+
+/* Pinned message background */
+#chatMessagePinned,
+.s-chat-message_pinned {
+    background-color: #3B101B !important;
+    background-image: none !important;
+    border-color: #8B293A !important;
+}
+
+/* Pinned message text */
+#chatMessagePinned *,
+.s-chat-message_pinned * {
+    color: #F1E9E9 !important;
+}
+
+/* Links inside pinned messages */
+#chatMessagePinned a,
+.s-chat-message_pinned a {
+    color: #C04A5D !important;
+}
+
+#chatMessagePinned a:hover,
+.s-chat-message_pinned a:hover {
+    color: #FFFFFF !important;
+}
+/* ================================
    VAMPIRE THEME — GAME STATS
 ================================ */
 
