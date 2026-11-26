@@ -118,3 +118,10 @@ table td {
 h1 {
     color: var(--silver) !important;
 }
+/* ================================
+   VAMPIRE THEME — SIDEBAR HEADINGS
+================================ */
+
+h3 {
+    color: var(--silver) !important;
+}
