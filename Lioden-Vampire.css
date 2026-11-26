@@ -328,10 +328,16 @@ button.button:hover,
    VAMPIRE THEME — PROFILE LINKS
 ================================ */
 
-#fraProfileContent a {
+#fraProfileContent a,
+#fraProfileContent table a,
+#fraProfileContent td a,
+#fraProfileContent .right a {
     color: #8B293A !important;
 }
 
-#fraProfileContent a:hover {
+#fraProfileContent a:hover,
+#fraProfileContent table a:hover,
+#fraProfileContent td a:hover,
+#fraProfileContent .right a:hover {
     color: #C04A5D !important;
 }
