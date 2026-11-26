@@ -245,3 +245,15 @@ button.button:hover,
 .progress-bar {
     background-color: #8B293A !important;
 }
+/* ================================
+   VAMPIRE THEME — SIDEBAR TEXT
+================================ */
+
+#pageSidebar,
+#pageSidebar p,
+#pageSidebar div,
+#pageSidebar span,
+#pageSidebar a,
+#pageSidebar small {
+    color: #FFFFFF !important;
+}
