@@ -90,13 +90,11 @@ select {
     border-color: var(--wine) !important;
 }
 /* ================================
-   VAMPIRE THEME — TABLE HEADERS
+   VAMPIRE THEME — DEN HEADER TEST
 ================================ */
 
-th,
-.table th,
-.panel-heading {
+.container.main h3,
+.container.main h4 {
     background-color: var(--near-black) !important;
     color: var(--silver) !important;
-    border-color: var(--wine) !important;
 }
