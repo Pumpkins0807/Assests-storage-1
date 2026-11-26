@@ -640,30 +640,28 @@ a[href*="attacks.php"]:hover {
     color: #FFFFFF !important;
 }
 
-/* REMOVE QUICK LINK COLUMN DECORATIONS */
+/* ================================
+   REMOVE QUICK LINK ROW LINES
+================================ */
 
-.row:has(a[href*="stud_requests.php"]) .col-sm-4,
-.row:has(a[href*="userlog.php"]) .col-sm-4,
-.row:has(a[href*="attacks.php"]) .col-sm-4 {
+.row:has(a[href*="stud_requests.php"])::before,
+.row:has(a[href*="stud_requests.php"])::after {
+    background: transparent !important;
+    background-image: none !important;
     border: none !important;
     box-shadow: none !important;
-    background-image: none !important;
+    outline: none !important;
+    content: "" !important;
 }
 
+/* Remove any column decorations */
 .row:has(a[href*="stud_requests.php"]) .col-sm-4::before,
-.row:has(a[href*="stud_requests.php"]) .col-sm-4::after,
-.row:has(a[href*="userlog.php"]) .col-sm-4::before,
-.row:has(a[href*="userlog.php"]) .col-sm-4::after,
-.row:has(a[href*="attacks.php"]) .col-sm-4::before,
-.row:has(a[href*="attacks.php"]) .col-sm-4::after,
-.row:has(a[href*="stud_requests.php"]) a::before,
-.row:has(a[href*="stud_requests.php"]) a::after,
-.row:has(a[href*="userlog.php"]) a::before,
-.row:has(a[href*="userlog.php"]) a::after,
-.row:has(a[href*="attacks.php"]) a::before,
-.row:has(a[href*="attacks.php"]) a::after {
-    display: none !important;
-    content: none !important;
+.row:has(a[href*="stud_requests.php"]) .col-sm-4::after {
+    background: transparent !important;
+    background-image: none !important;
     border: none !important;
-    background: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    content: none !important;
+    display: none !important;
 }
