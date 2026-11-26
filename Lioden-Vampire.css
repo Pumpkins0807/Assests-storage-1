@@ -505,7 +505,7 @@ footer {
     color: #F1E9E9 !important;
 }
 /* ================================
-   VAMPIRE THEME — FIX PLAY/FEED BOXES
+   VAMPIRE THEME — PLAY/FEED BOXES
 ================================ */
 
 /* Solid backgrounds for Play All and Feed All */
@@ -537,6 +537,45 @@ a[href*="account_settings.php"] {
 }
 
 a[href*="account_settings.php"]:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: #FFFFFF !important;
+}
+/* ================================
+   VAMPIRE THEME — SAVE & ACCOUNT BUTTONS
+================================ */
+
+/* Save button */
+#editdetailspanel input[type="submit"],
+input[name="update"] {
+    background: #8B293A !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+    color: #F1E9E9 !important;
+}
+
+/* Save button hover */
+#editdetailspanel input[type="submit"]:hover,
+input[name="update"]:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: #FFFFFF !important;
+}
+
+/* Account Settings button */
+#editdetailspanel ~ a,
+a[href*="account-settings"] {
+    background: #8B293A !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+    color: #F1E9E9 !important;
+}
+
+/* Account Settings hover */
+#editdetailspanel ~ a:hover,
+a[href*="account-settings"]:hover {
     background: #A6384B !important;
     background-image: none !important;
     border-color: #C04A5D !important;
