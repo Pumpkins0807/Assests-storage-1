@@ -50,6 +50,7 @@ body {
     background-attachment: scroll;
 }
 /* ================================
+
    VAMPIRE THEME — CURSOR
 ================================ */
 
@@ -256,4 +257,27 @@ button.button:hover,
 #pageSidebar a,
 #pageSidebar small {
     color: #FFFFFF !important;
+}
+/* ================================
+   VAMPIRE THEME — CHAT BOX
+================================ */
+
+#chatText,
+#chatTextContainer,
+#textChatContainer,
+#chatContainer {
+    color: var(--ivory) !important;
+}
+
+#btnChatSend {
+    background-color: var(--crimson) !important;
+    color: var(--ivory) !important;
+    border-color: var(--wine) !important;
+}
+
+#chat input,
+#chat textarea {
+    background-color: var(--black) !important;
+    color: var(--ivory) !important;
+    border-color: var(--wine) !important;
 }
