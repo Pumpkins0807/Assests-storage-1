@@ -432,6 +432,13 @@ footer {
     color: var(--ivory) !important;
 }
 
+a[href*="lioden.wiki"] {
+    color: #FF3030 !important;
+}
+
+a[href*="lioden.wiki"]:hover {
+    color: #FF6666 !important;
+}
 /* =========================================
    VAMPIRE THEME — PLAY ALL & FEED ALL
 ========================================= */
