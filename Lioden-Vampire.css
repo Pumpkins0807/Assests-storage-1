@@ -684,3 +684,703 @@ a:hover .mound-grid {
     filter: brightness(1.15) !important;
 }
 
+/* =========================================
+   VAMPIRE THEME — COLOR FOUNDATION
+========================================= */
+
+:root {
+    --ivory: #F1E9E9;
+    --ivory-transparent: #F1E9E9AB;
+
+    --black: #180D10;
+    --black-transparent: #180D10B3;
+
+    --wine: #691D2D;
+    --wine-transparent: #691D2DB0;
+    --wine-soft: #691D2D73;
+
+    --silver: #C6B6B9;
+    --silver-transparent: #C6B6B9BF;
+    --silver-soft: #C6B6B98F;
+
+    --crimson: #8B293A;
+    --crimson-transparent: #8B293AB0;
+    --crimson-soft: #8B293A82;
+
+    --dark-red: #3B101B;
+    --dark-red-transparent: #3B101BCF;
+    --dark-red-soft: #3B101B80;
+
+    --near-black: #0E090B;
+    --white: #FFFFFF;
+
+    --body-font: 'Bricolage Grotesque', sans-serif;
+}
+
+/* =========================================
+   VAMPIRE THEME — FONT
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&display=swap');
+
+body,
+button,
+input,
+textarea,
+select {
+    font-family: var(--body-font) !important;
+}
+
+/* ================================
+   VAMPIRE THEME — BACKGROUND
+================================ */
+
+body {
+    background-image: url('https://i.pinimg.com/1200x/65/20/4f/65204f097677bece86a3283dc129b3a9.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/* =========================================
+   VAMPIRE THEME — CURSOR
+========================================= */
+
+* {
+    cursor: url('https://cdn.cursors-4u.net/previews/bat-cursor-1924e929-32.webp') 32 32, auto !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — MAIN PANELS
+========================================= */
+
+.container,
+#main,
+#content,
+.panel,
+.panel-default,
+.well,
+.col-md-9 {
+    background-color: var(--black-transparent) !important;
+    border-color: var(--wine) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — TABLE HEADERS
+========================================= */
+
+.top,
+.bottom,
+th,
+.table .left {
+    background-color: var(--near-black) !important;
+    color: var(--silver) !important;
+    border-color: var(--wine) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — TABLE CELLS
+========================================= */
+
+.table td,
+table td {
+    background-color: #3B101B !important;
+    color: var(--ivory) !important;
+    border-color: var(--wine) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — DEN TITLE
+========================================= */
+
+h1 {
+    color: var(--silver) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — INPUTS & DROPDOWNS
+========================================= */
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+select {
+    background-color: var(--black) !important;
+    color: var(--ivory) !important;
+    border: 1px solid var(--wine) !important;
+}
+
+select option {
+    background-color: var(--black) !important;
+    color: var(--ivory) !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
+select:focus {
+    background-color: var(--dark-red) !important;
+    color: var(--ivory) !important;
+    border-color: #C04A5D !important;
+    outline: none !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — SIDEBAR HEADINGS
+========================================= */
+
+.sidebar h3,
+#pageSidebar h3,
+h3 a {
+    color: var(--silver) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — TOP NAVIGATION
+========================================= */
+
+.navbar {
+    background-color: var(--near-black) !important;
+    border-color: var(--wine) !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: var(--silver) !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: var(--wine) !important;
+    color: var(--ivory) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — BREADCRUMB
+========================================= */
+
+.breadcrumb {
+    background-color: var(--near-black) !important;
+    border: 1px solid var(--wine) !important;
+}
+
+.breadcrumb > li,
+.breadcrumb > li > a {
+    color: var(--silver) !important;
+}
+
+.breadcrumb > li + li::before {
+    color: var(--crimson) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — GENERAL BUTTONS
+========================================= */
+
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+a.btn,
+input[name="playall"],
+input[name="feedall"],
+input[name="sparwithsub"],
+input[name="bookmark"],
+#postComment,
+button.button,
+#btnChatSend,
+#btnToggleSidebarChat {
+    background: var(--crimson) !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+    color: var(--ivory) !important;
+}
+
+.btn-default:hover,
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+a.btn:hover,
+input[name="playall"]:hover,
+input[name="feedall"]:hover,
+input[name="sparwithsub"]:hover,
+input[name="bookmark"]:hover,
+#postComment:hover,
+button.button:hover,
+#btnChatSend:hover,
+#btnToggleSidebarChat:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: var(--white) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — TERRITORY DESCRIPTION
+========================================= */
+
+#fraProfileContent {
+    color: var(--white) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — PROGRESS BARS
+========================================= */
+
+#pageSidebar .progress {
+    background-color: var(--ivory) !important;
+}
+
+#pageSidebar .progress div {
+    color: var(--black) !important;
+}
+
+#pageSidebar .progress-bar {
+    background-color: var(--crimson) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — SIDEBAR TEXT
+========================================= */
+
+#pageSidebar,
+#pageSidebar p,
+#pageSidebar div,
+#pageSidebar span,
+#pageSidebar a,
+#pageSidebar small {
+    color: var(--white) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — CHAT BOX
+========================================= */
+
+#fra_chatContainer {
+    background-color: var(--black-transparent) !important;
+    border-color: var(--wine) !important;
+}
+
+#chatMessageContainer,
+#chatMessageList {
+    background-color: var(--black-transparent) !important;
+}
+
+.s-chat-message {
+    background-color: var(--black) !important;
+    color: var(--ivory) !important;
+    border-bottom: 1px solid var(--wine-soft) !important;
+}
+
+.s-chat-message_content,
+.s-chat-message_content * {
+    color: var(--ivory) !important;
+}
+
+.s-chat-message_pinned,
+#chatMessagePinned {
+    background-color: var(--dark-red) !important;
+    background-image: none !important;
+    border-color: var(--crimson) !important;
+    color: var(--ivory) !important;
+}
+
+.s-chat-message_pinned *,
+#chatMessagePinned * {
+    color: var(--ivory) !important;
+}
+
+#comment {
+    background-color: var(--black) !important;
+    color: var(--ivory) !important;
+    border: 1px solid var(--wine) !important;
+}
+
+#btnChatSend {
+    background-color: var(--crimson) !important;
+    background-image: none !important;
+    border: 1px solid var(--wine) !important;
+    color: var(--ivory) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — CHAT LINKS
+========================================= */
+
+#chatMessageList .s-chat-message a,
+#chatMessageContainer .s-chat-message a,
+#chatMessagePinned a,
+.s-chat-message_pinned a,
+#fra_chatContainer a[href*="code.php"] {
+    color: #C04A5D !important;
+}
+
+#chatMessageList .s-chat-message a:hover,
+#chatMessageContainer .s-chat-message a:hover,
+#chatMessagePinned a:hover,
+.s-chat-message_pinned a:hover {
+    color: var(--white) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — GAME STATS
+========================================= */
+
+#pageSidebar .panel,
+#pageSidebar .panel-body {
+    background-color: var(--black-transparent) !important;
+    border-color: var(--wine) !important;
+}
+
+#pageSidebar .panel-body {
+    color: var(--ivory) !important;
+}
+
+#pageSidebar .panel-body a {
+    color: var(--silver) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — PROFILE LINKS
+========================================= */
+
+#about a,
+#player a,
+#fraProfileContent a {
+    color: var(--crimson) !important;
+}
+
+#about a:hover,
+#player a:hover,
+#fraProfileContent a:hover {
+    color: #C04A5D !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — ALERT BOXES
+========================================= */
+
+.alert-success,
+.alert-danger,
+.alert-warning,
+.alert-info {
+    background-color: var(--dark-red) !important;
+    background-image: none !important;
+    color: var(--ivory) !important;
+    border: 1px solid var(--crimson) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — ALLIES & CLANS
+========================================= */
+
+#allies a,
+#clans a,
+table#allies a,
+table#clans a {
+    color: #C04A5D !important;
+}
+
+#allies a:hover,
+#clans a:hover,
+table#allies a:hover,
+table#clans a:hover {
+    color: var(--ivory) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — FOOTER
+========================================= */
+
+.container.footer a,
+.container.footer.white a,
+footer a {
+    color: #C04A5D !important;
+}
+
+.container.footer a:hover,
+.container.footer.white a:hover,
+footer a:hover {
+    color: var(--ivory) !important;
+}
+
+.container.footer,
+.container.footer.white,
+footer {
+    color: var(--ivory) !important;
+}
+
+a[href*="lioden.wiki"] {
+    color: #FF3030 !important;
+}
+
+a[href*="lioden.wiki"]:hover {
+    color: #FF6666 !important;
+}
+/* ================================
+   VAMPIRE THEME — PLAY/FEED BOXES
+================================ */
+
+/* Main Play All and Feed All boxes */
+#fraProfileContent .feature,
+#main .feature,
+form .feature,
+.feature {
+    background: #180D10 !important;
+    background-color: #180D10 !important;
+    background-image: none !important;
+    border: 1px solid #691D2D !important;
+    color: #F1E9E9 !important;
+}
+
+/* Titles */
+#fraProfileContent .feature h3,
+#main .feature h3,
+form .feature h3,
+.feature h3 {
+    color: #C6B6B9 !important;
+}
+
+/* Descriptions and text */
+#fraProfileContent .feature span,
+#fraProfileContent .feature p,
+#fraProfileContent .feature i,
+#fraProfileContent .feature em,
+#fraProfileContent .feature small,
+#main .feature span,
+#main .feature p,
+#main .feature i,
+#main .feature em,
+#main .feature small,
+.feature span,
+.feature p,
+.feature i,
+.feature em,
+.feature small {
+    color: #F1E9E9 !important;
+}
+
+/* Feed All dropdown */
+#fraProfileContent .feature select,
+#main .feature select,
+form .feature select,
+.feature select {
+    background-color: #180D10 !important;
+    background-image: none !important;
+    color: #F1E9E9 !important;
+    border: 1px solid #691D2D !important;
+}
+
+/* Dropdown options */
+#fraProfileContent .feature select option,
+#main .feature select option,
+.feature select option {
+    background-color: #180D10 !important;
+    color: #F1E9E9 !important;
+}
+
+/* Play All and Feed All buttons */
+#fraProfileContent .feature input[type="submit"],
+#main .feature input[type="submit"],
+form .feature input[type="submit"],
+.feature input[type="submit"] {
+    background: #8B293A !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+    color: #F1E9E9 !important;
+}
+
+/* Button hover */
+#fraProfileContent .feature input[type="submit"]:hover,
+#main .feature input[type="submit"]:hover,
+form .feature input[type="submit"]:hover,
+.feature input[type="submit"]:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: #FFFFFF !important;
+}
+/* =========================================
+   VAMPIRE THEME — ACCOUNT SETTINGS LINK
+========================================= */
+
+a[href="/account_settings.php"],
+a[href*="account_settings.php"] {
+    background: var(--crimson) !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+    color: var(--ivory) !important;
+    text-decoration: none !important;
+}
+
+a[href="/account_settings.php"]:hover,
+a[href*="account_settings.php"]:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: var(--white) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — EDIT DETAILS
+========================================= */
+
+a[onclick*="editdetailspanel"] {
+    color: #C04A5D !important;
+}
+
+a[onclick*="editdetailspanel"]:hover {
+    color: var(--ivory) !important;
+}
+
+/* =========================================
+   VAMPIRE THEME — SAVE BUTTON
+========================================= */
+
+#editdetailspanel input[type="submit"],
+input[name="update"] {
+    background: var(--crimson) !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+    color: var(--ivory) !important;
+}
+
+#editdetailspanel input[type="submit"]:hover,
+input[name="update"]:hover {
+    background: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: var(--white) !important;
+}
+
+/* ================================
+   VAMPIRE THEME — ACCOUNT SETTINGS BAR
+================================ */
+
+/* The bar surrounding the Account Settings link */
+div.left:has(a[href="/account_settings.php"]) {
+    background-color: #8B293A !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+}
+
+/* The Account Settings link itself */
+div.left a[href="/account_settings.php"] {
+    display: block !important;
+    background-color: #8B293A !important;
+    background-image: none !important;
+    border: none !important;
+    color: #F1E9E9 !important;
+    text-decoration: none !important;
+}
+
+/* Hover */
+div.left:has(a[href="/account_settings.php"]):hover,
+div.left a[href="/account_settings.php"]:hover {
+    background-color: #A6384B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: #FFFFFF !important;
+}
+
+/* ================================
+   VAMPIRE THEME — CAVE & ORGANIZATION TILES
+================================ */
+
+/* Tile backgrounds */
+#fraOrganizationBlock .cave-grid,
+#fraCaveList .cave-grid {
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY25wN2w0MTgzNWl2Yng4a2psczl5MGlpMmdrYWo0ZWFwb2s4ZXJ4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sFMuudjB6FgoU/giphy.gif') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #180D10 !important;
+    border: 1px solid #8B293A !important;
+    color: #F1E9E9 !important;
+}
+
+/* Hide original tile pictures */
+#fraOrganizationBlock .cave-grid img,
+#fraCaveList .cave-grid img {
+    display: none !important;
+}
+
+/* Tile text */
+#fraOrganizationBlock .cave-grid,
+#fraCaveList .cave-grid {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px #000000,
+                 0 0 5px #000000 !important;
+}
+
+/* Text inside tiles */
+#fraOrganizationBlock .cave-grid *,
+#fraCaveList .cave-grid * {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px #000000,
+                 0 0 5px #000000 !important;
+}
+
+/* Tile hover effect */
+#fraOrganizationBlock a:hover .cave-grid,
+#fraCaveList a:hover .cave-grid {
+    border-color: #C04A5D !important;
+    filter: brightness(1.15) !important;
+}
+
+/* ================================
+   VAMPIRE THEME — MOUND TILES
+================================ */
+
+/* Mound tile backgrounds */
+.mound-grid {
+    background-image: url('https://i.pinimg.com/1200x/65/20/4f/65204f097677bece86a3283dc129b3a9.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #180D10 !important;
+    border: 1px solid #8B293A !important;
+    color: #FFFFFF !important;
+}
+
+/* Hide the original mound pictures */
+.mound-grid img {
+    display: none !important;
+}
+
+/* Mound tile text */
+.mound-grid,
+.mound-grid * {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px #000000,
+                 0 0 5px #000000 !important;
+}
+
+/* Hover effect */
+a:hover .mound-grid {
+    border-color: #C04A5D !important;
+    filter: brightness(1.15) !important;
+}
+
+Test||
+
+/* ACCOUNT SETTINGS — FORCE BURGUNDY BAR */
+
+div.left {
+    background-color: #8B293A !important;
+    background-image: none !important;
+}
+
+div.left a[href="/account_settings.php"] {
+    color: #F1E9E9 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
