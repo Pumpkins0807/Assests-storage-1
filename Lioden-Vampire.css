@@ -564,6 +564,13 @@ a[href*="account_settings.php"]:hover {
     border-color: #C04A5D !important;
     color: #FFFFFF !important;
 }
+a[onclick*="editdetailspanel"] {
+    color: #C04A5D !important;
+}
+
+a[onclick*="editdetailspanel"]:hover {
+    color: #F1E9E9 !important;
+}
 /* ================================
    VAMPIRE THEME — SAVE & ACCOUNT BUTTONS
 ================================ */
