@@ -617,10 +617,9 @@ a.button:hover {
 ================================ */
 
 /* Button styling */
-a[href*="stud_requests.php"],
-a[href*="userlog.php"],
-a[href*="attacks.php"] {
-    display: block !important;
+.row a[href*="stud_requests.php"],
+.row a[href*="userlog.php"],
+.row a[href*="attacks.php"] {
     background: #8B293A !important;
     background-image: none !important;
     border: 1px solid #A6384B !important;
@@ -628,31 +627,25 @@ a[href*="attacks.php"] {
     text-decoration: none !important;
 }
 
-/* Inner text */
-a[href*="stud_requests.php"] .left,
-a[href*="userlog.php"] .left,
-a[href*="attacks.php"] .left {
-    background: transparent !important;
+/* Inner button text */
+.row a[href*="stud_requests.php"] .left,
+.row a[href*="userlog.php"] .left,
+.row a[href*="attacks.php"] .left {
+    background: none !important;
     border: none !important;
     color: #F1E9E9 !important;
 }
 
 /* Hover */
-a[href*="stud_requests.php"]:hover,
-a[href*="userlog.php"]:hover,
-a[href*="attacks.php"]:hover {
+.row a[href*="stud_requests.php"]:hover,
+.row a[href*="userlog.php"]:hover,
+.row a[href*="attacks.php"]:hover {
     background: #A6384B !important;
     border-color: #C04A5D !important;
     color: #FFFFFF !important;
 }
 
-/* Remove Lioden's decorative vertical lines */
-.row:has(a[href*="stud_requests.php"])::before,
-.row:has(a[href*="stud_requests.php"])::after,
-.row:has(a[href*="userlog.php"])::before,
-.row:has(a[href*="userlog.php"])::after,
-.row:has(a[href*="attacks.php"])::before,
-.row:has(a[href*="attacks.php"])::after,
+/* Remove decorative lines from quick-link columns */
 .row:has(a[href*="stud_requests.php"]) .col-sm-4::before,
 .row:has(a[href*="stud_requests.php"]) .col-sm-4::after,
 .row:has(a[href*="userlog.php"]) .col-sm-4::before,
@@ -661,5 +654,4 @@ a[href*="attacks.php"]:hover {
 .row:has(a[href*="attacks.php"]) .col-sm-4::after {
     display: none !important;
     content: none !important;
-    border: none !important;
 }
