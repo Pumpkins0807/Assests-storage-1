@@ -1467,7 +1467,7 @@ div.left a[href="/account_settings.php"] {
     background-image: none !important;
 }
 /* ================================
-   VAMPIRE THEME — CUSTOM BAT LOGO
+   VAMPIRE THEME — CUSTOM LOGO
 ================================ */
 
 .navbar-brand {
@@ -1487,7 +1487,7 @@ div.left a[href="/account_settings.php"] {
     display: block !important;
     width: 180px !important;
     height: 65px !important;
-    background-image: url("https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcGQ0My0wNjA0LTI5MS1uYW0tMDFfMS5wbmc.png") !important;
+    background-image: url('https://i.pinimg.com/736x/93/22/4e/93224e97914a9c19de79ceda220794fa.jpg') !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: contain !important;
