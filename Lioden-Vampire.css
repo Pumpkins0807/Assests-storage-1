@@ -1470,16 +1470,25 @@ div.left a[href="/account_settings.php"] {
    VAMPIRE THEME — CUSTOM BAT LOGO
 ================================ */
 
+.navbar-brand {
+    width: 180px !important;
+    height: 65px !important;
+    position: relative !important;
+    display: block !important;
+    padding: 0 !important;
+}
+
 .navbar-brand img {
     display: none !important;
 }
 
-.navbar-brand {
-    background-image: url('https://png.pngtree.com/png-clipart/20200604/ourmin/pngtree-halloween-characters-decorations-black-paper-bats-flying-on-a-transparent-background-png-image_2219047.jpg') !important;
+.navbar-brand::after {
+    content: "" !important;
+    display: block !important;
+    width: 180px !important;
+    height: 65px !important;
+    background-image: url("https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcGQ0My0wNjA0LTI5MS1uYW0tMDFfMS5wbmc.png") !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: contain !important;
-    width: 150px !important;
-    height: 60px !important;
-    display: block !important;
 }
