@@ -121,10 +121,34 @@ h1 {
    VAMPIRE THEME — TEXT EDITING BOXES
 ================================ */
 
-textarea {
-    background-color: var(--black) !important;
-    color: var(--ivory) !important;
-    border: 1px solid var(--wine) !important;
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+select {
+    background-color: #180D10 !important;
+    color: #F1E9E9 !important;
+    border: 1px solid #691D2D !important;
+}
+
+/* Dropdown options */
+select option {
+    background-color: #180D10 !important;
+    color: #F1E9E9 !important;
+}
+
+/* Text when typing */
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
+select:focus {
+    background-color: #3B101B !important;
+    color: #F1E9E9 !important;
+    border-color: #C04A5D !important;
+    outline: none !important;
 }
 /* ================================
    VAMPIRE THEME — SIDEBAR HEADING LINKS
