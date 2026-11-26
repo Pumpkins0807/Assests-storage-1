@@ -238,3 +238,10 @@ button.button:hover,
     border-color: #C04A5D !important;
     color: var(--white) !important;
 }
+/* ================================
+   VAMPIRE THEME — PROGRESS BARS
+================================ */
+
+.progress-bar {
+    background-color: #8B293A !important;
+}
