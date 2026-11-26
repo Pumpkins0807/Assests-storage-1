@@ -119,13 +119,6 @@ h1 {
     color: var(--silver) !important;
 }
 /* ================================
-   VAMPIRE THEME — SIDEBAR HEADINGS
-================================ */
-
-h3 {
-    color: var(--silver) !important;
-}
-/* ================================
    VAMPIRE THEME — TEXT EDITING BOXES
 ================================ */
 
@@ -133,4 +126,30 @@ textarea {
     background-color: var(--black) !important;
     color: var(--ivory) !important;
     border: 1px solid var(--wine) !important;
+}
+/* ================================
+   VAMPIRE THEME — SIDEBAR HEADING LINKS
+================================ */
+
+.sidebar h3,
+#pageSidebar h3,
+h3 a {
+    color: var(--silver) !important;
+}
+/* ================================
+   VAMPIRE THEME — TOP NAVIGATION
+================================ */
+
+.navbar {
+    background-color: var(--near-black) !important;
+    border-color: var(--wine) !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: var(--silver) !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: var(--wine) !important;
+    color: var(--ivory) !important;
 }
