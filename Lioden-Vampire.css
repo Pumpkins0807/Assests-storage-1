@@ -1423,3 +1423,30 @@ a:hover .mound-grid {
     height: 50px !important;
     object-fit: cover !important;
 }
+/* ================================
+   VAMPIRE THEME — QUICK LINK LINE REMOVAL
+================================ */
+
+.row:has(a[href*="stud_requests.php"]),
+.row:has(a[href*="userlog.php"]),
+.row:has(a[href*="attacks.php"]) {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.row:has(a[href*="stud_requests.php"])::before,
+.row:has(a[href*="stud_requests.php"])::after {
+    display: none !important;
+    content: none !important;
+}
+
+.row:has(a[href*="stud_requests.php"]) > div::before,
+.row:has(a[href*="stud_requests.php"]) > div::after {
+    display: none !important;
+    content: none !important;
+}
+
+.row:has(a[href*="stud_requests.php"]) a {
+    border: none !important;
+    box-shadow: none !important;
+}
