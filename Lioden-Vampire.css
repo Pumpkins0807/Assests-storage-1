@@ -50,7 +50,6 @@ body {
     background-attachment: scroll;
 }
 /* ================================
-
    VAMPIRE THEME — CURSOR
 ================================ */
 
@@ -377,4 +376,21 @@ button.button:hover,
     background-image: none !important;
     color: #F1E9E9 !important;
     border: 1px solid #8B293A !important;
+}
+/* ================================
+   VAMPIRE THEME — PLAY ALL / FEED ALL
+================================ */
+
+.feature {
+    background-color: #180D10 !important;
+    background-image: none !important;
+    border: 1px solid #8B293A !important;
+    color: #F1E9E9 !important;
+}
+
+.feature h3,
+.feature p,
+.feature span,
+.feature small {
+    color: #F1E9E9 !important;
 }
