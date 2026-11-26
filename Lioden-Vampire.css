@@ -81,7 +81,11 @@ select {
     background-color: var(--black-transparent) !important;
     border-color: var(--wine) !important;
 }
-/* TEST — MAIN CONTENT COLUMN */
+/* ================================
+   VAMPIRE THEME — MAIN CONTENT
+================================ */
+
 .col-md-9 {
-    background-color: #691D2D !important;
+    background-color: var(--black-transparent) !important;
+    border-color: var(--wine) !important;
 }
