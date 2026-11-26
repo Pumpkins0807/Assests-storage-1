@@ -504,6 +504,13 @@ footer a:hover {
 footer {
     color: #F1E9E9 !important;
 }
+a[href*="lioden.wiki"] {
+    color: #FF3030 !important;
+}
+
+a[href*="lioden.wiki"]:hover {
+    color: #FF6666 !important;
+}
 /* ================================
    VAMPIRE THEME — PLAY/FEED BOXES
 ================================ */
