@@ -439,25 +439,65 @@ a[href*="lioden.wiki"] {
 a[href*="lioden.wiki"]:hover {
     color: #FF6666 !important;
 }
-/* =========================================
-   VAMPIRE THEME — PLAY ALL & FEED ALL
-========================================= */
+/* ================================
+   VAMPIRE THEME — PLAY/FEED BOXES
+================================ */
 
+/* Main boxes */
 #main .feature {
-    background-color: var(--black) !important;
+    background: #180D10 !important;
     background-image: none !important;
-    border: 1px solid var(--crimson) !important;
-    color: var(--ivory) !important;
+    border: 1px solid #8B293A !important;
+    color: #F1E9E9 !important;
+    box-shadow: none !important;
 }
 
-#main .feature h3,
-#main .feature p,
+/* Headings */
+#main .feature h3 {
+    color: #C6B6B9 !important;
+}
+
+/* Text inside boxes */
 #main .feature span,
+#main .feature p,
 #main .feature small,
-#main .feature em {
-    color: var(--ivory) !important;
+#main .feature em,
+#main .feature i {
+    color: #F1E9E9 !important;
 }
 
+/* Dropdown */
+#main .feature select {
+    background-color: #180D10 !important;
+    color: #F1E9E9 !important;
+    border: 1px solid #8B293A !important;
+}
+
+/* Dropdown options */
+#main .feature select option {
+    background-color: #180D10 !important;
+    color: #F1E9E9 !important;
+}
+
+/* Play All and Feed All buttons */
+#main .feature input[type="submit"] {
+    background: #8B293A !important;
+    background-image: none !important;
+    border: 1px solid #A6384B !important;
+    color: #F1E9E9 !important;
+}
+
+/* Button hover */
+#main .feature input[type="submit"]:hover {
+    background: #A6384B !important;
+    border-color: #C04A5D !important;
+    color: #FFFFFF !important;
+}
+
+/* Feed All emphasis text */
+#main .feature em {
+    color: #C6B6B9 !important;
+}
 /* =========================================
    VAMPIRE THEME — ACCOUNT SETTINGS LINK
 ========================================= */
