@@ -72,25 +72,18 @@ select {
    VAMPIRE THEME — MAIN PANELS
 ================================ */
 
-.container.main {
-    background-color: var(--black-transparent) !important;
-    border: 1px solid var(--wine) !important;
-    box-shadow: none !important;
-}
-
-.col-md-9 {
-    background: transparent !important;
-}
-/* TEMPORARY PANEL TEST */
-
 body {
-    background-color: #180D10 !important;
+    background-color: var(--near-black) !important;
 }
 
-.container {
+.container,
+.container-fluid {
     background-color: transparent !important;
 }
 
+#main,
+main,
 .container.main {
-    background-color: #691D2D !important;
+    background-color: var(--black-transparent) !important;
+    border: 1px solid var(--wine) !important;
 }
