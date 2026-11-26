@@ -1416,3 +1416,10 @@ a:hover .mound-grid {
 .dynastylist:hover * {
     color: #F1E9E9 !important;
 }
+.dynastylist img {
+    content: url('https://i.pinimg.com/1200x/e7/0d/31/e70d31d940708243832166d9351bf399.jpg') !important;
+    width: 100% !important;
+    max-width: 240px !important;
+    height: 50px !important;
+    object-fit: cover !important;
+}
