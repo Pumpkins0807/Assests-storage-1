@@ -72,18 +72,13 @@ select {
    VAMPIRE THEME — MAIN PANELS
 ================================ */
 
-body {
-    background-color: var(--near-black) !important;
-}
 
 .container,
-.container-fluid {
-    background-color: transparent !important;
-}
-
 #main,
-main,
-.container.main {
-    background-color: var(--black-transparent) !important;
-    border: 1px solid var(--wine) !important;
+#content,
+.panel,
+.panel-default,
+.well {
+    background-color: #FF00FF !important;
+    border: 3px solid #00FF00 !important;
 }
