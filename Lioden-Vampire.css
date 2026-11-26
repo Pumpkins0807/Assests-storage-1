@@ -615,6 +615,16 @@ div.left:has(a[href*="account_settings.php"]) a {
 div.left:has(a[href*="account_settings.php"]) a:hover {
     color: #FFFFFF !important;
 }
+/* ACCOUNT SETTINGS — FORCE BAR COLOR */
+
+#main div.left:has(a[href*="account_settings.php"]),
+#main div.left:has(a[href*="account_settings.php"]) *,
+#main a[href*="account_settings.php"] {
+    background-color: #8B293A !important;
+    background-image: none !important;
+    color: #F1E9E9 !important;
+    border-color: #A6384B !important;
+}
 /* ================================
    VAMPIRE THEME — DEN QUICK LINKS
 ================================ */
