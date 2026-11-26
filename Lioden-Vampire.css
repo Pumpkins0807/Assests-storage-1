@@ -324,3 +324,14 @@ button.button:hover,
 #pageSidebar .panel-body a {
     color: var(--silver) !important;
 }
+/* ================================
+   VAMPIRE THEME — PROFILE LINKS
+================================ */
+
+#fraProfileContent a {
+    color: #8B293A !important;
+}
+
+#fraProfileContent a:hover {
+    color: #C04A5D !important;
+}
