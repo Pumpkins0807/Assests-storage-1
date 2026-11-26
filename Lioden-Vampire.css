@@ -152,3 +152,20 @@ h3 a {
     background-color: var(--wine) !important;
     color: var(--ivory) !important;
 }
+/* ================================
+   VAMPIRE THEME — BREADCRUMB BAR
+================================ */
+
+.breadcrumb {
+    background-color: var(--near-black) !important;
+    border: 1px solid var(--wine) !important;
+}
+
+.breadcrumb > li,
+.breadcrumb > li > a {
+    color: var(--silver) !important;
+}
+
+.breadcrumb > li + li::before {
+    color: var(--crimson) !important;
+}
