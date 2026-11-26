@@ -458,3 +458,20 @@ button.button:hover,
 .feature small {
     color: #F1E9E9 !important;
 }
+/* ================================
+   VAMPIRE THEME — ALLIES & CLAN LINKS
+================================ */
+
+#allies a,
+#clans a,
+table#allies a,
+table#clans a {
+    color: #C04A5D !important;
+}
+
+#allies a:hover,
+#clans a:hover,
+table#allies a:hover,
+table#clans a:hover {
+    color: #F1E9E9 !important;
+}
