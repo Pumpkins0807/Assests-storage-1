@@ -46,12 +46,12 @@ select {
     font-family: var(--body-font) !important;
 }
 
-/* =========================================
+/* ================================
    VAMPIRE THEME — BACKGROUND
-========================================= */
+================================ */
 
 body {
-    background-image: url('https://i.pinimg.com/736x/79/3c/bf/793cbf704d113f940823cdf2a802cf86.jpg');
+    background-image: url('https://i.pinimg.com/1200x/65/20/4f/65204f097677bece86a3283dc129b3a9.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -586,36 +586,30 @@ div.left a[href="/account_settings.php"] {
 }
 
 /* ================================
-   VAMPIRE THEME — CAVE & ORGANIZATION TILES
+   VAMPIRE THEME — CAVE TILES
 ================================ */
 
-/* Tile backgrounds */
+/* Cave tile backgrounds */
 #fraOrganizationBlock .cave-grid,
 #fraCaveList .cave-grid {
-    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY25wN2w0MTgzNWl2Yng4a2psczl5MGlpMmdrYWo0ZWFwb2s4ZXJ4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sFMuudjB6FgoU/giphy.gif') !important;
+    background-image: url('https://www.blackgate.com/wp-content/uploads/2023/10/IMG_0389-1024x655.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-color: #180D10 !important;
     border: 1px solid #8B293A !important;
-    color: #F1E9E9 !important;
+    color: #FFFFFF !important;
 }
 
-/* Hide original tile pictures */
+/* Hide the original cave pictures */
 #fraOrganizationBlock .cave-grid img,
 #fraCaveList .cave-grid img {
     display: none !important;
 }
 
-/* Tile text */
+/* Cave tile text */
 #fraOrganizationBlock .cave-grid,
-#fraCaveList .cave-grid {
-    color: #FFFFFF !important;
-    text-shadow: 1px 1px 3px #000000,
-                 0 0 5px #000000 !important;
-}
-
-/* Text inside tiles */
+#fraCaveList .cave-grid,
 #fraOrganizationBlock .cave-grid *,
 #fraCaveList .cave-grid * {
     color: #FFFFFF !important;
@@ -623,9 +617,42 @@ div.left a[href="/account_settings.php"] {
                  0 0 5px #000000 !important;
 }
 
-/* Tile hover effect */
+/* Hover effect */
 #fraOrganizationBlock a:hover .cave-grid,
 #fraCaveList a:hover .cave-grid {
+    border-color: #C04A5D !important;
+    filter: brightness(1.15) !important;
+}
+/* ================================
+   VAMPIRE THEME — MOUND TILES
+================================ */
+
+/* Mound tile backgrounds */
+.mound-grid {
+    background-image: url('https://i.pinimg.com/1200x/65/20/4f/65204f097677bece86a3283dc129b3a9.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #180D10 !important;
+    border: 1px solid #8B293A !important;
+    color: #FFFFFF !important;
+}
+
+/* Hide the original mound pictures */
+.mound-grid img {
+    display: none !important;
+}
+
+/* Mound tile text */
+.mound-grid,
+.mound-grid * {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px #000000,
+                 0 0 5px #000000 !important;
+}
+
+/* Hover effect */
+a:hover .mound-grid {
     border-color: #C04A5D !important;
     filter: brightness(1.15) !important;
 }
