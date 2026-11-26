@@ -170,6 +170,16 @@ h3 a {
     color: var(--crimson) !important;
 }
 /* ================================
+   VAMPIRE THEME — COMMENT TEXT
+================================ */
+
+.comment,
+.comment-text,
+#comment,
+input[type="text"] {
+    color: #FFFFFF !important;
+}
+/* ================================
    VAMPIRE THEME — BUTTONS
 ================================ */
 
