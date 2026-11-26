@@ -81,3 +81,16 @@ select {
 .col-md-9 {
     background: transparent !important;
 }
+/* TEMPORARY PANEL TEST */
+
+body {
+    background-color: #180D10 !important;
+}
+
+.container {
+    background-color: transparent !important;
+}
+
+.container.main {
+    background-color: #691D2D !important;
+}
