@@ -262,24 +262,39 @@ button.button:hover,
    VAMPIRE THEME — CHAT BOX
 ================================ */
 
-#chatText,
-#chatTextContainer,
-#textChatContainer,
-#chatContainer {
-    color: var(--ivory) !important;
-}
-
-#btnChatSend {
-    background-color: var(--crimson) !important;
-    color: var(--ivory) !important;
-    border-color: var(--wine) !important;
-}
-
-#chat input,
-#chat textarea {
+/* Chat message backgrounds */
+.chat_light,
+.chat_dark {
     background-color: var(--black) !important;
     color: var(--ivory) !important;
     border-color: var(--wine) !important;
+}
+
+/* Chat message text and links */
+.chat_light *,
+.chat_dark * {
+    color: var(--ivory) !important;
+}
+
+/* Chat input */
+#comment {
+    background-color: var(--black) !important;
+    color: var(--ivory) !important;
+    border: 1px solid var(--wine) !important;
+}
+
+/* Code of Conduct text */
+#chatTextContainer,
+#textChatContainer {
+    color: var(--ivory) !important;
+}
+
+/* Roar button */
+#btnChatSend {
+    background-color: var(--crimson) !important;
+    background-image: none !important;
+    border: 1px solid var(--wine) !important;
+    color: var(--ivory) !important;
 }
 /* ================================
    VAMPIRE THEME — GAME STATS
