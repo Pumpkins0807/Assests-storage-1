@@ -520,3 +520,25 @@ table#allies a:hover,
 table#clans a:hover {
     color: #F1E9E9 !important;
 }
+/* ================================
+   VAMPIRE THEME — FOOTER LINKS
+================================ */
+
+.container.footer a,
+.container.footer.white a,
+footer a {
+    color: #C04A5D !important;
+}
+
+.container.footer a:hover,
+.container.footer.white a:hover,
+footer a:hover {
+    color: #F1E9E9 !important;
+}
+
+/* Footer text */
+.container.footer,
+.container.footer.white,
+footer {
+    color: #F1E9E9 !important;
+}
