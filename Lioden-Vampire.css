@@ -46,7 +46,7 @@ body {
     background-image: url('https://i.pinimg.com/1200x/35/5c/89/355c89dc971ac616681db406e42a713c.jpg');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-attachment: scroll;
 }
 /* ================================
