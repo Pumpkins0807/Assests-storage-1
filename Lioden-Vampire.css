@@ -604,50 +604,6 @@ div.left a[href="/account_settings.php"]:hover {
     border-color: #C04A5D !important;
     color: #FFFFFF !important;
 }
-/* =========================================
-   VAMPIRE THEME — DEN QUICK LINKS
-========================================= */
-
-a[href*="stud_requests.php"],
-a[href*="userlog.php"],
-a[href*="attacks.php"] {
-    background: var(--crimson) !important;
-    background-image: none !important;
-    border: 1px solid #A6384B !important;
-    color: var(--ivory) !important;
-    text-decoration: none !important;
-}
-
-a[href*="stud_requests.php"] div,
-a[href*="userlog.php"] div,
-a[href*="attacks.php"] div {
-    background: transparent !important;
-    background-image: none !important;
-    color: var(--ivory) !important;
-    border: none !important;
-}
-
-a[href*="stud_requests.php"]:hover,
-a[href*="userlog.php"]:hover,
-a[href*="attacks.php"]:hover {
-    background: #A6384B !important;
-    background-image: none !important;
-    border-color: #C04A5D !important;
-    color: var(--white) !important;
-}
-
-/* ACCOUNT SETTINGS — FORCE BURGUNDY BAR */
-
-div.left {
-    background-color: #8B293A !important;
-    background-image: none !important;
-}
-
-div.left a[href="/account_settings.php"] {
-    color: #F1E9E9 !important;
-    background-color: transparent !important;
-    background-image: none !important;
-}
 
 /* ================================
    VAMPIRE THEME — CAVE & ORGANIZATION TILES
