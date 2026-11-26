@@ -111,3 +111,10 @@ table td {
     color: var(--ivory) !important;
     border-color: var(--wine) !important;
 }
+/* ================================
+   VAMPIRE THEME — DEN TITLE
+================================ */
+
+h1 {
+    color: var(--silver) !important;
+}
