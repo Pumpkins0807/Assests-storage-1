@@ -1368,17 +1368,51 @@ a:hover .mound-grid {
     border-color: #C04A5D !important;
     filter: brightness(1.15) !important;
 }
+/* ================================
+   VAMPIRE THEME — DYNASTY & PROFILE TILES
+================================ */
 
-=========
-
-a[href*="stud_requests.php"],
-a[href*="userlog.php"],
-a[href*="attacks.php"] {
-    background: var(--crimson) !important;
+/* Tile backgrounds */
+#main .dynastylist,
+#main .dynastylist .left,
+#main .dynastylist a,
+.dynastylist,
+.dynastylist .left {
+    background-color: #180D10 !important;
     background-image: none !important;
-    border: 1px solid #A6384B !important;
-    color: var(--ivory) !important;
-    text-decoration: none !important;
+    border: 1px solid #691D2D !important;
+    color: #C6B6B9 !important;
 }
 
+/* Tile text and headings */
+#main .dynastylist h3,
+#main .dynastylist .left,
+#main .dynastylist .left *,
+.dynastylist h3,
+.dynastylist .left,
+.dynastylist .left * {
+    color: #C6B6B9 !important;
+}
 
+/* Links inside tiles */
+#main .dynastylist a,
+.dynastylist a {
+    color: #C6B6B9 !important;
+}
+
+/* Hover effect */
+#main .dynastylist:hover,
+#main .dynastylist:hover .left,
+.dynastylist:hover,
+.dynastylist:hover .left {
+    background-color: #3B101B !important;
+    background-image: none !important;
+    border-color: #C04A5D !important;
+    color: #F1E9E9 !important;
+}
+
+/* Hover text */
+#main .dynastylist:hover *,
+.dynastylist:hover * {
+    color: #F1E9E9 !important;
+}
