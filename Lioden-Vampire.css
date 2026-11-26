@@ -616,7 +616,6 @@ a.button:hover {
    VAMPIRE THEME — DEN QUICK LINKS
 ================================ */
 
-/* Style the clickable link */
 a[href*="stud_requests.php"],
 a[href*="userlog.php"],
 a[href*="attacks.php"] {
@@ -626,7 +625,6 @@ a[href*="attacks.php"] {
     color: #F1E9E9 !important;
 }
 
-/* Style the text container inside the links */
 a[href*="stud_requests.php"] div.left,
 a[href*="userlog.php"] div.left,
 a[href*="attacks.php"] div.left {
@@ -634,11 +632,21 @@ a[href*="attacks.php"] div.left {
     color: #F1E9E9 !important;
 }
 
-/* Hover */
 a[href*="stud_requests.php"]:hover,
 a[href*="userlog.php"]:hover,
 a[href*="attacks.php"]:hover {
     background-color: #A6384B !important;
     border-color: #C04A5D !important;
     color: #FFFFFF !important;
+}
+
+.row:has(a[href*="stud_requests.php"]) .col-sm-4:before,
+.row:has(a[href*="stud_requests.php"]) .col-sm-4:after,
+.row:has(a[href*="userlog.php"]) .col-sm-4:before,
+.row:has(a[href*="userlog.php"]) .col-sm-4:after,
+.row:has(a[href*="attacks.php"]) .col-sm-4:before,
+.row:has(a[href*="attacks.php"]) .col-sm-4:after {
+    content: "" !important;
+    display: none !important;
+    visibility: hidden !important;
 }
