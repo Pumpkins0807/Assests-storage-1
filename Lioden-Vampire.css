@@ -1466,4 +1466,20 @@ div.left a[href="/account_settings.php"] {
     background-color: transparent !important;
     background-image: none !important;
 }
+/* ================================
+   VAMPIRE THEME — CUSTOM BAT LOGO
+================================ */
 
+.navbar-brand img {
+    display: none !important;
+}
+
+.navbar-brand {
+    background-image: url('https://png.pngtree.com/png-clipart/20200604/ourmin/pngtree-halloween-characters-decorations-black-paper-bats-flying-on-a-transparent-background-png-image_2219047.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    width: 150px !important;
+    height: 60px !important;
+    display: block !important;
+}
