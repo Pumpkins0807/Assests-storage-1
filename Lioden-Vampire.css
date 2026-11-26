@@ -125,3 +125,12 @@ h1 {
 h3 {
     color: var(--silver) !important;
 }
+/* ================================
+   VAMPIRE THEME — TEXT EDITING BOXES
+================================ */
+
+textarea {
+    background-color: var(--black) !important;
+    color: var(--ivory) !important;
+    border: 1px solid var(--wine) !important;
+}
