@@ -654,3 +654,13 @@ a[href*="attacks.php"]:hover {
     background-color: #A6384B !important;
     color: #FFFFFF !important;
 }
+/* Remove decorative lines from den quick links */
+a[href*="stud_requests.php"]::before,
+a[href*="stud_requests.php"]::after,
+a[href*="userlog.php"]::before,
+a[href*="userlog.php"]::after,
+a[href*="attacks.php"]::before,
+a[href*="attacks.php"]::after {
+    display: none !important;
+    content: none !important;
+}
