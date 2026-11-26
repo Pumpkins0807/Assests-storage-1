@@ -572,41 +572,15 @@ a[href*="attacks.php"]:hover {
     color: var(--white) !important;
 }
 
-/* =========================================
-   VAMPIRE THEME — REMOVE QUICK LINK DECORATIONS
-========================================= */
+/* ACCOUNT SETTINGS — FORCE BURGUNDY BAR */
 
-/* Target the specific row containing the three quick links */
-
-.row:has(> .col-sm-4 > a[href*="stud_requests.php"]),
-.row:has(> .col-sm-4 > a[href*="userlog.php"]),
-.row:has(> .col-sm-4 > a[href*="attacks.php"]) {
-    border: none !important;
-    box-shadow: none !important;
+div.left {
+    background-color: #8B293A !important;
+    background-image: none !important;
 }
 
-/* Remove pseudo-elements from the quick-link columns */
-
-.row:has(> .col-sm-4 > a[href*="stud_requests.php"]) > .col-sm-4::before,
-.row:has(> .col-sm-4 > a[href*="stud_requests.php"]) > .col-sm-4::after,
-.row:has(> .col-sm-4 > a[href*="userlog.php"]) > .col-sm-4::before,
-.row:has(> .col-sm-4 > a[href*="userlog.php"]) > .col-sm-4::after,
-.row:has(> .col-sm-4 > a[href*="attacks.php"]) > .col-sm-4::before,
-.row:has(> .col-sm-4 > a[href*="attacks.php"]) > .col-sm-4::after {
-    display: none !important;
-    content: none !important;
-    background: none !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-/* Remove pseudo-elements from the row itself */
-
-.row:has(> .col-sm-4 > a[href*="stud_requests.php"])::before,
-.row:has(> .col-sm-4 > a[href*="stud_requests.php"])::after {
-    display: none !important;
-    content: none !important;
-    background: none !important;
-    border: none !important;
-    box-shadow: none !important;
+div.left a[href="/account_settings.php"] {
+    color: #F1E9E9 !important;
+    background-color: transparent !important;
+    background-image: none !important;
 }
