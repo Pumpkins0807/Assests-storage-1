@@ -49,14 +49,17 @@ body,
 body * {
     font-family: 'UnifrakturMaguntia', cursive !important;
 }
-/* ================================
-   VAMPIRE THEME — TERRITORY DESCRIPTION FONT
-================================ */
+/* =========================================
+   TERRITORY DESCRIPTION — ORIGINAL FONT
+========================================= */
 
-#main .userDescription,
-#main .territoryDescription,
-#main [style*="background:#180D10"],
-#main [style*="background:#3B101B"] {
+body .territory-boxes,
+body .territory-boxes *,
+.territory-boxes div,
+.territory-boxes h2,
+.territory-boxes h3,
+.territory-boxes td,
+.territory-boxes a {
     font-family: Arial, Helvetica, sans-serif !important;
 }
 /* ================================
