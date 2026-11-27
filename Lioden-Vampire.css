@@ -36,7 +36,13 @@
    VAMPIRE THEME — FONT
 ========================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@font-face {
+    font-family: "Jim Nightshade";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/fontsource/fonts/jim-nightshade@5.3.0/latin-400-normal.woff2') format('woff2');
+}
 
 /* ================================
    VAMPIRE THEME — GLOBAL FONT FIX
