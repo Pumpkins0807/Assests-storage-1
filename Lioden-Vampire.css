@@ -36,14 +36,14 @@
    VAMPIRE THEME — FONT
 ========================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 
 body,
 button,
 input,
 textarea,
 select {
-    font-family: var(--body-font) !important;
+    font-family: "UnifrakturMaguntia", cursive !important;
 }
 
 /* ================================
@@ -1504,4 +1504,9 @@ div.left a[href="/account_settings.php"] {
     background-position: center !important;
     background-size: contain !important;
     transform: translateX(-45px) !important;
+}
+*,
+*::before,
+*::after {
+    font-family: "UnifrakturMaguntia", cursive !important;
 }
