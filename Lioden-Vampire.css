@@ -37,30 +37,17 @@
 ========================================= */
 
 @font-face {
-    font-family: 'UnifrakturMaguntia';
+    font-family: 'Jim Nightshade';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('https://fonts.gstatic.com/s/unifrakturmaguntia/v22/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2') format('woff2');
+    src: url('https://fonts.gstatic.com/s/jimnightshade/v20/1K2F4Z7E.woff2') format('woff2');
 }
 
 html,
 body,
 body * {
-    font-family: 'UnifrakturMaguntia', cursive !important;
-}
-/* =========================================
-   TERRITORY DESCRIPTION — ORIGINAL FONT
-========================================= */
-
-body .territory-boxes,
-body .territory-boxes *,
-.territory-boxes div,
-.territory-boxes h2,
-.territory-boxes h3,
-.territory-boxes td,
-.territory-boxes a {
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: 'Jim Nightshade', cursive !important;
 }
 /* ================================
    VAMPIRE THEME — BACKGROUND
