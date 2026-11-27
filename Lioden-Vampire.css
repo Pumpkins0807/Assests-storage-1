@@ -36,14 +36,18 @@
    VAMPIRE THEME — FONT
 ========================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@font-face {
+    font-family: 'UnifrakturMaguntia';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/unifrakturmaguntia/v22/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2') format('woff2');
+}
 
 html,
 body,
-body *,
-body *::before,
-body *::after {
-    font-family: "UnifrakturMaguntia", cursive !important;
+body * {
+    font-family: 'UnifrakturMaguntia', cursive !important;
 }
 
 /* ================================
