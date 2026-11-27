@@ -37,17 +37,23 @@
 ========================================= */
 
 @font-face {
-    font-family: 'Jim Nightshade';
+    font-family: "Jim Nightshade";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('https://fonts.gstatic.com/s/jimnightshade/v20/1K2F4Z7E.woff2') format('woff2');
+    src: url('YOUR_DIRECT_FONT_URL_HERE') format('woff2');
 }
+
+/* ================================
+   VAMPIRE THEME — GLOBAL FONT FIX
+================================ */
 
 html,
 body,
-body * {
-    font-family: 'Jim Nightshade', cursive !important;
+body *,
+body *::before,
+body *::after {
+    font-family: "Jim Nightshade", cursive !important;
 }
 /* ================================
    VAMPIRE THEME — BACKGROUND
