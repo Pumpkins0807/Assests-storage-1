@@ -1510,3 +1510,14 @@ div.left a[href="/account_settings.php"] {
 *::after {
     font-family: "UnifrakturMaguntia", cursive !important;
 }
+/* ================================
+   VAMPIRE THEME — TOP ACCOUNT LINKS
+================================ */
+
+.toplinks a {
+    color: #FF3030 !important;
+}
+
+.toplinks a:hover {
+    color: #C6B6B9 !important;
+}
