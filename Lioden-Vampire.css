@@ -1520,21 +1520,3 @@ div.left a[href="/account_settings.php"] {
 .toplinks a:hover {
     color: #C6B6B9 !important;
 }
-/* ================================
-   VAMPIRE THEME — GLOBAL FONT FIX
-================================ */
-
-html,
-body,
-body *,
-body *::before,
-body *::after {
-    font-family: "UnifrakturMaguntia", cursive !important;
-}
-body,
-button,
-input,
-textarea,
-select {
-    font-family: "UnifrakturMaguntia", cursive !important;
-}
