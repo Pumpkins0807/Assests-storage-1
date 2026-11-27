@@ -264,6 +264,11 @@ button.button:hover,
     color: var(--white) !important;
 }
 
+.territory-boxes,
+.territory-boxes * {
+    font-size: 18px !important;
+}
+
 /* =========================================
    VAMPIRE THEME — PROGRESS BARS
 ========================================= */
