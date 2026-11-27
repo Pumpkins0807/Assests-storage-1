@@ -38,11 +38,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 
+html,
 body,
-button,
-input,
-textarea,
-select {
+body *,
+body *::before,
+body *::after {
     font-family: "UnifrakturMaguntia", cursive !important;
 }
 
