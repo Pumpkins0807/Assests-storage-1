@@ -36,12 +36,22 @@
    VAMPIRE THEME — FONT
 ========================================= */
 
+/* Latin Extended */
 @font-face {
     font-family: "Jim Nightshade";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('https://cdn.jsdelivr.net/fontsource/fonts/jim-nightshade@5.3.0/latin-400-normal.woff2') format('woff2');
+    src: url('https://fonts.gstatic.com/s/jimnightshade/v21/PlIkFlu9Pb08Q8HLM1PxmB0g-NSxXXu6aA.woff2') format('woff2');
+}
+
+/* Latin */
+@font-face {
+    font-family: "Jim Nightshade";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/jimnightshade/v21/PlIkFlu9Pb08Q8HLM1PxmB0g-NS_XXs.woff2') format('woff2');
 }
 
 /* ================================
